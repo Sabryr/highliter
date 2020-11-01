@@ -3,7 +3,7 @@ root = Tk(className='Highlight')
 root.geometry("400x200")
 root.configure(bg='yellow')
 root.wait_visibility(root)
-root.wm_attributes('-alpha',0.3)
+root.wm_attributes('-alpha',0.2)
 root.mainloop()
 
 #from tkinter import *
