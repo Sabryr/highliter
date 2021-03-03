@@ -1,0 +1,5 @@
+This script is to highlight parts of the screen during presentations.
+Only requirement are Python3 with the package called tkinter
+
+pip3 install tk
+python3 transparent-window.py &
