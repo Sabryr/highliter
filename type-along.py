@@ -1,12 +1,10 @@
 from tkinter import Tk # or(from Tkinter import Tk) on Python 2.x
-root = Tk(className='Highlight')
-root.geometry("400x200")
-root.configure(bg='yellow')
+root = Tk(className='Type-with-me')
+root.geometry("200x0")
+root.configure(bg='green')
 root.wait_visibility(root)
 root.wm_attributes('-alpha',0.5)
-entry1=Tk.Entry(root)
 root.mainloop()
-
 
 #from tkinter import *
 
